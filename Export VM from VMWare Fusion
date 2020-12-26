@@ -1,3 +1,5 @@
+== VMWare Fusion ==
+=== Export VM ===
 VMWare fusion does not have GUI support to export VM's. To export VM's, use the following command line option:
 
 ```
