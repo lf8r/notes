@@ -1,8 +1,11 @@
 == VMWare Fusion ==
 === Export VM ===
+
 VMWare fusion does not have GUI support to export VM's. To export VM's, use the following command line option:
 
 ```
+
 cd /Applications/VMware\ Fusion.app/Contents/Library/VMware\ OVF\ Tool/
 ./ovftool --acceptAllEulas ~/path/to/your/virtual-drive.vmx ~/path/to/your/destination.ova
+
 ```
